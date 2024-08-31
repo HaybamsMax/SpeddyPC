@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpeddyPc</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Header one-->
+    <h1>SpeddyPc</h1>
+    <!--Header two-->
+    <p><h3> Job Application Form</h3></p><p>Please fill the form correctly.</p>
+    <form>
+        <!--Label for Applicant name-->
+       <div class="applicant">
+       <label for="name">Applicant Name </label><br> <input type="text" id="fname" name="fname"placeholder="firstname"> <input type="text" id="Mname" name="Mname"placeholder="Middlename"> <input type="text" id="Lname" name="Lname"placeholder="Lastname"></div>
+       <!--Label for DOB-->
+       <div class="DOB">
+       <label for="DOB">Date of Birth</label>
+       <input id="dob" name="dob" type="date">
+       <!--Label for Nationality--> <label for="Nationality">Nationality</label>
+        <input type="text"id="Nationality" name="Nationality" placeholder="Enter your Nationality"></div>
+       <!--Label for Address--> 
+       <div class="address"><Label for="Address1">Address 1</Label><input
+        type="text"placeholder="street Address" size="80">
+        <Label for="Address1">Address 2 </Label><input
+        type="text"placeholder="street Address" size="80">
+    </div>
+     <!--Label for Email--> 
+     <div class="email">
+     <label for="Email">Email Address</label><input type="text" placeholder="eg:example@gmail.com"><!--Label for number--> 
+    
+     <Label for="Number">Phone number</Label><input type="text" placeholder="0000 000 0000"></div> 
+     <!--Section for Employment Desired-->
+     <div class="employmentdesired
+     "><section><h3>Employment Desired</h3> <!--Section for position-->
+        
+       <label for="Position" >Position Applied For</label> <input type="text" name="position" autofocus> 
+       <!--Section for qualification-->
+       <label for="Education">Education qualifications</label>
+       <select name="ssce" id="ssce"><option value="ssce">SSCE</option>
+    <option value="OND">OND</option><option value="HND">HND</option><option value="BSc">BSc</option><option value="others">others</option></select></section></div>
+    <!--Section for work experience-->
+    <div class="employer"><section>
+        <h3>Work Experience</h3> <!--Label for employer-->
+        
+        <label for="employer">Employer</label><input type="text" id="employer name" name="employer name"> <!--Label for job--> <label for="job title">Job title</label><input type="text" id="jobtitle" name="jobtitle">
+    </section></div>
+    <!--Section for employer history-->
+    <div class="employerhistory"><section><h3>Employer History</h3> <!--Label for employer history-->
+      <div class="history">
+      <label for="employerhistory">Employer history</label><textarea name="employerHistory"></textarea>
+    </section></div></div>
+    <!--Section for years of experience-->
+    <div class="yearsofexp">
+    <section><h3>Number of years of Experience</h3>
+     <!--Label for experience--> <label for="yearsofexperience">Years Of Experience</label> <input type="number" id="years-of-experience" name="years-of-experience" min="0" max="10" value="0"></section> </div>
+     <!--Section for refree--> 
+     <div class="firstreferee"><section><h3> First Referee</h3> <!--Label for referee name--> <label for="refree1">Referee Name</label> <input type="text" id="referee name" name="refree" placeholder="input referee full name"> <br><br> <!--Label for referee Address--> <label for="referee address">Referee Address </label> <input type="text" id="referee address" name="Address">  <!--Label for occupation--> <label for="Occupation">Occupation</label> <input type="text" id="occupation" name="occupation"> <!--Label for relationship--> <label for="relation">Relationship</label> <input type="text" id="relationship" name="relationship"> <!--Label for telephone--> <label for="telephone"> Phone Number</label> <input type="text" id="number" name="number" placeholder="0000 000 0000"></section> </div><!--Section for second refree-->
+     <div class="secondreferee">
+    <section><h3> Second Referee</h3> <!--Label for referee second name--> <label for="refree1">Referee Name</label> <input type="text" id="referee name" name="refree" placeholder="input referee full name"> <!--Label for referee second Address--><label for="referee address">Referee Address </label> <input type="text" id="referee address" name="Address"> <!--Label for occupation--> <label for="Occupation">Occupation</label> <input type="text" id="occupation"name="occupation"> <!--Label for relationship--> <label for="relation">Relationship</label> <input type="text" id="relationship" name="relationship"> <!--Label for telephone--> <br><label for="telephone"> Phone Number</label> <input type="text" id="number" name="number" placeholder="0000 000 0000"></section></div>
+    <!--Form submit section-->
+    <div class="submit">
+    <form action="mailto:adejuwonaderonke121@gmail.com" method="post" enctype="text/plain"><!-- The form fields-->
+ <input type="hidden" name="email" value="adejuwonaderonke121@gmail.com">
+        <input type="submit" value="Submit Application"> 
+      </form></div>
+
+ </form>
+</body>
+</html>
